@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pre-html.html</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <h1 class="header-title">株式会社TECH</h1>
+
+        <!-- リンク先？ -->
+        <ul class="header-list">
+            <li class="list-text">
+                <a href="">ホーム</a>
+            </li>
+            <li class="list-text">
+                <a href="">企業情報</a>
+            </li>
+            <li class="list-text">
+                <a href="">会社概要</a>
+            </li>
+            <li class="list-text">
+                <a href="">よくある質問</a>
+            </li>
+            <li class="list-text">
+                <a href="">お問い合わせ</a>
+            </li>
+        </ul>
+
+    </header>
+
+    <!-- サイズ？ -->
+    <img class="main-img" src="../img/mv.png" alt="イメージ画像">
+
+    <div class="main">
+        <p class="intro-head">最新のテクノロジーで<em class="em">社会議題</em>を解決</p>
+        <div class="intro-text">
+            <h2 class="intro-title">会社概要</h2>
+            <table class="intro-main">
+                <tr>
+                    <th>会社名</th>
+                    <td>株式会社TECH</td>
+                </tr>
+                <tr>
+                    <th>代表者</th>
+                    <td>山田 太郎</td>
+                </tr>
+                <tr>
+                    <th>所在地</th>
+                    <td>東京都渋谷区神宮前</td>
+                </tr>
+                <tr>
+                    <th>設立</th>
+                    <td>2019/07/17</td>
+                <tr>
+                    <th>従業員数</th>
+                    <td>100人</td>
+                </tr>
+                <tr>
+                    <th>資本金</th>
+                    <td>1000万円</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>お問い合わせ</h2>
+        <form class="contact-form" action="送信先" method="post">
+            <p>
+                <label>会社名<input type="text"></label>
+            </p>
+            <p>
+                <label>お名前<input type="text"></label>
+            </p>
+            <p>
+                <label>メールアドレス<input type="e-mail"></label>
+            </p>
+            <p>
+                <!-- サイズ？ -->
+                <label>お問い合わせ内容<textarea name="textarea" cols="30" rows="10"></textarea></label>
+            </p>
+            <p>
+                <input type="submit" value="お申込み">
+            </p>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <small class="copy">&copy;2020 TECH inc.</small>
+    </footer>
+
+</body>
+
+</html>
